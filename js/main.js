@@ -1,15 +1,9 @@
-var heading = document.getElementById( 'mainHeader' ) ;
-heading.addEventListener( 'click', function() {
+var count = 0;
+var heading = document.getElementById( 'mainHeader' );
 
-	  // function clickHeading ( number ) {
-		//   var clickNumber = 0;
-		//
-		// 	while (number > 0) {
-		// 		clickNumber += 1;
-		//
-		// 		}
-		// }
-		// var myElement.innerHTML= "<p>This is click number</p>";
-		console.log( 'This click is number' ) ;
-
+heading.addEventListener( 'click', function( ) {
+	var myElement = document.createElement( 'paragraph' );
+	count++;
+	myElement.innerHTML = '<p>This click is number </p>' + count ;
+	document.getElementById( 'container' ).appendChild( myElement );
 } );
