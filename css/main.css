@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #0099ff;
+}
+
+#container {
+    margin: auto;
+}
+
+img {
+    border: 4px solid #0099ff;
+    width: 75%;
+    height: auto;
+}
+
+button {
+    background-color: #0099ff;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+p {
+    padding: 10px 50px;
+    font-size: 1.2em;
+}
