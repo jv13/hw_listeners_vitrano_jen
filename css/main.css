@@ -5,6 +5,7 @@ body {
 h1,
 h2 {
     color: #0099ff;
+    text-align: center;
 }
 
 #container {
@@ -26,6 +27,7 @@ button {
 }
 
 p {
-    padding: 10px 50px;
+    padding: 10px 180px;
     font-size: 1.2em;
+    text-align: left;
 }
