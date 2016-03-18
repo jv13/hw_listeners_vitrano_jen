@@ -27,7 +27,8 @@ heading.addEventListener( 'mouseover', function() {
 //Listen for event on the resize of the screen
 window.addEventListener( 'resize', function() {
 
-	//When the user resizes the screen a paragraph appears after the content and lets the user know how many times they have resized the screen.
+	//When the user resizes the screen a paragraph appears after the content
+	//This lets the user know how many times they have resized the screen.
 	var resize = i += 1;
 	document.getElementById( 'times' ).innerHTML = 'This window was resized ' + resize + ' times!';
 } );
