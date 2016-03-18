@@ -1,6 +1,7 @@
 var img = document.getElementById( 'funfact' );
 var info = document.getElementById( 'funfact' );
 var heading = document.getElementById( 'mk' );
+var i = 0;
 
 //Listen for events on the button
 //When the button is clicked create a paragraph and image and adds the hidden text and image.
@@ -15,7 +16,13 @@ img.addEventListener( 'click', function( event ) {
 } );
 
 //Listen for event on the h2
-//When the h2 is clicked display the new text
-heading.addEventListener( 'click', function() {
-	heading.innerHTML = 'Magic Kingom is my favorite park!';
+//When the user places their mous over the h2, new text displays after the html in the h2.
+heading.addEventListener( 'mouseover', function() {
+		document.getElementById( 'mk' ).innerHTML = 'Magic Kingdom is my favorite park!';
+	} );
+
+//Listen for event on the resize of the screen
+window.addEventListener( 'resize', function() {
+	var resize = i += 1;
+	document.getElementById( 'times' ).innerHTML = 'This window was resized ' + resize + ' times!';
 } );
